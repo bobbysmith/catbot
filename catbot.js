@@ -13,7 +13,7 @@ module.exports = function (req, res, next) {
     console.log(catUrl);
 
     var username = req.body.user_name;
-    var botPayload = { text: 'It\'s cat time! @' + username + ' ' + catUrl};
+    var botPayload = { text: 'It\'s kitty time! @' + username + ' ' + catUrl};
     console.log(botPayload);
 
     if (username !== 'slackbot') {
